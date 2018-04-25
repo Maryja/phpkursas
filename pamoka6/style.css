@@ -1,0 +1,18 @@
+p {
+    font-family: Bahnschrift;
+    font-size: 20px;
+    color: darkred;
+}
+input {
+    height: 20px;
+    border: 3px dashed maroon;
+    outline: none;
+}
+.container {
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    margin-top: 25px;
+    background: antiquewhite;
+
+}
