@@ -11,6 +11,18 @@
 <input type="hidden" name="MAX_FILE_SIZE" value="5000000" />
 Yours photo: <input name="file[]" type="file" multiple>
     <input type="submit" value="Send File" />
+
+
 </form>
+
+<?php
+    $read = 'files.txt';
+    if(!empty($read)):
+        $file_data = file($read);
+        foreach($file_data as $read):
+            echo $read."<br>";
+        endforeach;
+    endif;
+?>
 </body>
 </html>

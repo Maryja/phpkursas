@@ -7,21 +7,26 @@ foreach($good_array['file'] as $file):
     $uploadfile = $uploaddir . ($file['name']);
 
 
-    if (move_uploaded_file($file['tmp_name'], $uploadfile)) {
+    if (move_uploaded_file($file['tmp_name'], $uploadfile)) :
         $log = 'files.txt';
         $data = $file['name']." - ".date("Y-m-d H:i:s")." \n";
-        if(!file_exists($log)){
+
+
+        if(!file_exists($log)):
             file_put_contents($log, $data);
-        } else {
+        else :
             file_put_contents($log, $data, FILE_APPEND);
-        }
+        endif;
+
         header("Location: index.php");
 
 
 
-    } else {
+    else :
         echo "Something wrong <br>";
-    }
+
+    endif;
+
 
         endforeach;
 
