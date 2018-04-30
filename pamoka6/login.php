@@ -1,3 +1,4 @@
+<?php session_start()?>
 <!doctype html>
 <html lang="en">
 <head>
@@ -21,6 +22,7 @@
     </form>
 <?php
 
+
 if(isset($_POST['login'])):
 
  login();
@@ -39,16 +41,12 @@ function login()
 {
     $sql = "SELECT * FROM users";
     $sth = getDb()->query($sql);
-
     $form_name = $_POST['username'];
     $form_pass = $_POST['password'];
-
     foreach ($sth as $value):
         if ($value['username'] == $form_name && $value['password'] == $form_pass):
             echo "<h2>Prisijungti pavyko</h2>";
-
         else:
-
             echo "<h2>Klaida</h2>";
         endif;
     endforeach;
@@ -57,6 +55,7 @@ function login()
 ?>
 
 </div>
-
+<a href="index.php">Registracijos forma</a>
 </body>
 </html>
+

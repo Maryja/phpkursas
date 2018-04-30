@@ -26,6 +26,7 @@ return new PDO($dsn, $user, $password);
         $sql = "INSERT INTO users (username, password, email, name) VALUES (:username, :password, :email, :name)";
         $sth = getDb()->prepare($sql);
 
+
         $sth->execute([
             'username'=>$data['username'],
             'password'=>$data['password'],
