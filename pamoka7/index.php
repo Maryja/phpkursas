@@ -105,5 +105,34 @@ function pushNumber($data){
 
 }
 ?>
+
+
+
+<?php
+function Show(){
+
+    $sql = "SELECT c.name as friends, 
+    sc.number as numbers 
+    FROM friends c
+    LEFT JOIN numbers sc 
+    ON sc.parent_id = c.id";
+    $result = getDb()->query($sql)->fetchAll(PDO::FETCH_ASSOC);
+
+
+    foreach ($result as $key):
+
+        echo $key['friends']." - ".$key['numbers']."<br>";
+    endforeach;
+
+
+//    echo '<pre>';
+//    print_r($result);
+//    echo '<pre>';
+
+
+}
+
+Show();
+?>
 </body>
 </html>
