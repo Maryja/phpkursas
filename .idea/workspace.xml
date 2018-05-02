@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e99f0237-1a1c-4f09-852c-e9685da96235" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/pamoka10/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pamoka 8/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/pamoka 8/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pamoka9/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/pamoka9/index.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -30,6 +28,15 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pamoka9/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="616">
+              <caret line="70" column="151" selection-start-line="70" selection-start-column="151" selection-end-line="70" selection-end-column="151" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pamoka 8/index.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="302">
@@ -45,6 +52,15 @@
                 <element signature="n#style#0;n#td#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#td#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="6" lean-forward="true" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -69,9 +85,9 @@
         <option value="$PROJECT_DIR$/pamoka6/login.php" />
         <option value="$PROJECT_DIR$/pamoka6/register.php" />
         <option value="$PROJECT_DIR$/pamoka7/index.php" />
-        <option value="$PROJECT_DIR$/pamoka9/index.php" />
         <option value="$PROJECT_DIR$/pamoka10/index.php" />
         <option value="$PROJECT_DIR$/pamoka 8/index.php" />
+        <option value="$PROJECT_DIR$/pamoka9/index.php" />
       </list>
     </option>
   </component>
@@ -84,7 +100,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="70" />
     <option name="width" value="955" />
     <option name="height" value="1084" />
@@ -108,12 +124,7 @@
             <path>
               <item name="php" type="b2602c69:ProjectViewProjectNode" />
               <item name="php" type="462c0819:PsiDirectoryNode" />
-              <item name="pamoka 8" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="php" type="b2602c69:ProjectViewProjectNode" />
-              <item name="php" type="462c0819:PsiDirectoryNode" />
-              <item name="pamoka10" type="462c0819:PsiDirectoryNode" />
+              <item name="pamoka9" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -168,18 +179,18 @@
       <workItem from="1525103280003" duration="750000" />
       <workItem from="1525251007778" duration="3388000" />
       <workItem from="1525255158360" duration="2251000" />
-      <workItem from="1525265420951" duration="3508000" />
+      <workItem from="1525265420951" duration="5207000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42455000" />
+    <option name="totallyTimeSpent" value="44154000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="56" y="0" width="764" height="867" extended-state="0" />
+    <frame x="55" y="-7" width="1488" height="878" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.5269886" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.5266107" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -188,7 +199,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3220339" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32127956" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -420,13 +431,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pamoka5pamoka/index.php" />
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="6" lean-forward="true" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pamoka5/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="248">
@@ -483,13 +487,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pamoka9/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="65" column="16" selection-start-line="65" selection-start-column="16" selection-end-line="65" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pamoka10/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -512,6 +509,20 @@
             <element signature="n#style#0;n#td#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#td#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="6" lean-forward="true" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pamoka9/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="70" column="151" selection-start-line="70" selection-start-column="151" selection-end-line="70" selection-end-column="151" />
         </state>
       </provider>
     </entry>

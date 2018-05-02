@@ -14,7 +14,12 @@ class Post
     public function setContent($content){
         $this->content = $content;
 
+        if (strlen($content) > 500):
+            echo "Max length is:".self::MAX_LENGTH;
+        endif;
+
     }
+
     public function  setAuthor($author){
         $this->author = $author;
     }
@@ -23,7 +28,7 @@ class Post
    }
    public function getContent(){
         return $this->content;
-        return self::MAX_LENGTH;
+
    }
 
    public function getAuthor(){
@@ -60,7 +65,10 @@ $person->setName("John");
 $person->setId(10);
 $post = new Post();
 $post->setTitle("My titile");
-$post->setContent("Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s");
+$post->setContent("Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s");
 $post->setAuthor($person);
 
 var_dump($post);
