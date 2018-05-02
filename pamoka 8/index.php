@@ -40,6 +40,7 @@ $result = getDb()->query($sql)->fetchAll(PDO::FETCH_ASSOC);
     <input type="submit" value="Search...">
 </form>
 <?php
+//search form
         if (isset($_GET['keyword'])):
         $keyword = $_GET['keyword'];
         $sql = "SELECT marks.mark,
@@ -51,7 +52,7 @@ $result = getDb()->query($sql)->fetchAll(PDO::FETCH_ASSOC);
         ON marks.student_no = students.student_no
         LEFT JOIN modules
         ON marks.module_code = modules.module_code
-        WHERE forename or  surname or module_name LIKE :keyword";
+        WHERE forename LIKE :keyword OR  surname LIKE :keyword OR module_name LIKE :keyword";
         $sth = getDb()->prepare($sql);
         $sth->execute([
     'keyword' => "%" . $keyword . "%"
@@ -59,7 +60,7 @@ $result = getDb()->query($sql)->fetchAll(PDO::FETCH_ASSOC);
         $res = $sth->fetchAll(PDO::FETCH_ASSOC);
 
 
-if (count($res) > 0): ?>
+if (count($res) > 0 && !empty($_GET['keyword'])): ?>
     <h1>Results: </h1>
     <?php
     echo "<table style='border: 1px solid blue'>";
@@ -89,6 +90,7 @@ foreach ($res as $key => $value):
     </tr>
 
     <?php
+    //table form
     foreach ($result as $key => $value):
 
 
