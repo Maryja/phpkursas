@@ -1,0 +1,16 @@
+{
+    "name": "marija/pamoka_12",
+    "authors": [
+        {
+            "name": "maryja",
+            "email": "marija.nevdach@gmail.com"
+        }
+    ],
+    "require": {},
+
+    "autoload": {
+        "classmap": [
+            "src/"
+        ]
+    }
+}

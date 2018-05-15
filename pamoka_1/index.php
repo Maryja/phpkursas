@@ -1,4 +1,5 @@
-<?php 
+<?php
+
 $type = "cat";
 $name = "Tim";
 $age = 1;
