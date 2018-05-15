@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e99f0237-1a1c-4f09-852c-e9685da96235" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pamoka_10/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/pamoka_10/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pamoka_13/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pamoka_11/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/pamoka_11/index.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -32,10 +32,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pamoka_10/index.php">
+        <entry file="file://$PROJECT_DIR$/pamoka_13/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="58" column="5" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
+            <state relative-caret-position="510">
+              <caret line="30" column="15" selection-start-line="30" selection-start-column="15" selection-end-line="30" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -63,7 +63,6 @@
         <option value="$PROJECT_DIR$/pamoka 8/index.php" />
         <option value="$PROJECT_DIR$/pamoka9/index.php" />
         <option value="$PROJECT_DIR$/pamoka10/index.php" />
-        <option value="$PROJECT_DIR$/pamoka_11/index.php" />
         <option value="$PROJECT_DIR$/pamoka_1/index.php" />
         <option value="$PROJECT_DIR$/pamoka_12/src/db.php" />
         <option value="$PROJECT_DIR$/pamoka_12/composer.json" />
@@ -72,6 +71,8 @@
         <option value="$PROJECT_DIR$/pamoka_12/index.php" />
         <option value="$PROJECT_DIR$/pamoka_12/src/student.php" />
         <option value="$PROJECT_DIR$/pamoka_10/index.php" />
+        <option value="$PROJECT_DIR$/pamoka_11/index.php" />
+        <option value="$PROJECT_DIR$/pamoka_13/index.php" />
       </list>
     </option>
   </component>
@@ -114,7 +115,7 @@
             <path>
               <item name="php" type="b2602c69:ProjectViewProjectNode" />
               <item name="php" type="462c0819:PsiDirectoryNode" />
-              <item name="pamoka_10" type="462c0819:PsiDirectoryNode" />
+              <item name="pamoka_13" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -180,12 +181,12 @@
       <workItem from="1526302324728" duration="2413000" />
       <workItem from="1526310906063" duration="13000" />
       <workItem from="1526364504241" duration="2954000" />
-      <workItem from="1526385368094" duration="203000" />
+      <workItem from="1526385368094" duration="5483000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63588000" />
+    <option name="totallyTimeSpent" value="68868000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="55" y="-7" width="1488" height="878" extended-state="6" />
@@ -247,7 +248,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pamoka_9/index.php" />
     <entry file="file://$PROJECT_DIR$/pamoka_8/index.php" />
     <entry file="file://$PROJECT_DIR$/pamoka_7/index.php" />
     <entry file="file://$PROJECT_DIR$/pamoka_8/index.php" />
@@ -295,13 +295,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pamoka_11/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="174" lean-forward="true" selection-start-line="97" selection-end-line="174" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pamoka_12/src/db.php" />
     <entry file="file://$PROJECT_DIR$/pamoka_12/src/modules.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -324,24 +317,50 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pamoka_11/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="83" column="24" selection-start-line="83" selection-start-column="24" selection-end-line="83" selection-end-column="24" />
+          <folding>
+            <element signature="n#style#0;n#td#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pamoka_9/index.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pamoka_10/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="683">
+          <caret line="58" column="5" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pamoka_12/src/marks.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+        <state relative-caret-position="612">
+          <caret line="36" column="11" lean-forward="true" selection-start-line="29" selection-start-column="8" selection-end-line="36" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pamoka_12/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="10" selection-end-column="1" />
+          <folding>
+            <element signature="e#1773#1790#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pamoka_10/index.php">
+    <entry file="file://$PROJECT_DIR$/pamoka_13/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="58" column="5" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
+        <state relative-caret-position="510">
+          <caret line="30" column="15" selection-start-line="30" selection-start-column="15" selection-end-line="30" selection-end-column="15" />
         </state>
       </provider>
     </entry>

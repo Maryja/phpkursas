@@ -19,9 +19,9 @@ class DB
 class Student extends DB
 {
 
-   protected $student_no = null;
-   protected $surname = null;
-   protected $forename = null;
+   public $student_no = null;
+   public $surname = null;
+   public $forename = null;
 
 
     function __construct($student_no,$surname,$forename)
@@ -50,6 +50,11 @@ $bob->save();
 
 class Modules extends DB
 {
+
+
+        public $module_name = null;
+        public $module_code = null;
+
     function __construct($module_code,$module_name)
     {
         $this->module_code = $module_code;
@@ -73,6 +78,11 @@ $maths->save();
 
 class Marks extends DB
 {
+
+    public $student_no = null;
+    public $module_code = null;
+    public $mark = null;
+
     function __construct($student_no,$module_code,$mark)
     {
         $this->student_no = $student_no;
