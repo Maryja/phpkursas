@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e99f0237-1a1c-4f09-852c-e9685da96235" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/php.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pamoka_1/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/pamoka_1/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pamoka_12/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/pamoka_12/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pamoka_12/src/marks.php" beforeDir="false" afterPath="$PROJECT_DIR$/pamoka_12/src/marks.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pamoka_12/src/modules.php" beforeDir="false" afterPath="$PROJECT_DIR$/pamoka_12/src/modules.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pamoka_12/src/student.php" beforeDir="false" afterPath="$PROJECT_DIR$/pamoka_12/src/student.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -52,20 +47,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="student.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pamoka_12/src/student.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="marks.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pamoka_12/src/marks.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="51">
               <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="student.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pamoka_12/src/student.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -106,10 +101,10 @@
         <option value="$PROJECT_DIR$/pamoka_1/index.php" />
         <option value="$PROJECT_DIR$/pamoka_12/src/db.php" />
         <option value="$PROJECT_DIR$/pamoka_12/composer.json" />
-        <option value="$PROJECT_DIR$/pamoka_12/src/student.php" />
         <option value="$PROJECT_DIR$/pamoka_12/src/marks.php" />
         <option value="$PROJECT_DIR$/pamoka_12/src/modules.php" />
         <option value="$PROJECT_DIR$/pamoka_12/index.php" />
+        <option value="$PROJECT_DIR$/pamoka_12/src/student.php" />
       </list>
     </option>
   </component>
@@ -153,6 +148,12 @@
               <item name="php" type="b2602c69:ProjectViewProjectNode" />
               <item name="php" type="462c0819:PsiDirectoryNode" />
               <item name="pamoka_12" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="php" type="b2602c69:ProjectViewProjectNode" />
+              <item name="php" type="462c0819:PsiDirectoryNode" />
+              <item name="pamoka_12" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -217,12 +218,12 @@
       <workItem from="1526066082371" duration="606000" />
       <workItem from="1526302324728" duration="2413000" />
       <workItem from="1526310906063" duration="13000" />
-      <workItem from="1526364504241" duration="2512000" />
+      <workItem from="1526364504241" duration="2818000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62943000" />
+    <option name="totallyTimeSpent" value="63249000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="55" y="-7" width="1488" height="878" extended-state="6" />
@@ -360,6 +361,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pamoka_12/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pamoka_12/vendor/autoload.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/pamoka_12/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -373,19 +387,6 @@
           </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pamoka_12/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pamoka_12/vendor/autoload.php">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/pamoka_12/src/student.php">
       <provider selected="true" editor-type-id="text-editor">

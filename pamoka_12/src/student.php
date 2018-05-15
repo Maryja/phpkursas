@@ -4,7 +4,7 @@
 
 namespace Student;
 
-use PDO;g
+use PDO;
 class DB
 {
     function getDb()
