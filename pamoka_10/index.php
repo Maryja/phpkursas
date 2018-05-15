@@ -7,6 +7,7 @@ class ShoppingCart
 
     public function addItem($item){
         array_push($this->items,$item);
+        $this->date = date("Y-m-d H:i:sa");
     }
     public function getItems(){
         return $this->items;
@@ -50,6 +51,11 @@ class Drink
     public function getDrinkName()
     {
         return $this->name;
+    }
+
+    public function deleteItems($item){
+        unset($this->items, $item);
+        unset($this->date);
     }
 }
 
